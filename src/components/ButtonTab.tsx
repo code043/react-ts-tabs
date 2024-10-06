@@ -7,7 +7,7 @@ interface Props {
 }
 const ButtonTab = ({ jobs, value, setValue }: Props) => {
   return (
-    <div className="btn-container">
+    <div className="text-blue-200">
       {jobs.map((item, index) => {
         return (
           <button
