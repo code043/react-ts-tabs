@@ -7,7 +7,7 @@ function App() {
   const [techs] = useState<TechData[]>(technologies);
 
   return (
-    <main className="bg-blue-800">
+    <main>
       <Techs jobs={techs} />
     </main>
   );
