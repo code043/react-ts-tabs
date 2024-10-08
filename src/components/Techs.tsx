@@ -12,7 +12,7 @@ const Techs = ({ jobs }: Props) => {
   return (
     <section className="section">
       <div className="title">
-        <h2>Technologies</h2>
+        <h2 className="text-blue-300 ">Technologies</h2>
       </div>
       <div className="">
         <ButtonTab jobs={jobs} value={value} setValue={setValue} />
