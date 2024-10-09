@@ -12,7 +12,7 @@ const ButtonTab = ({ jobs, value, setValue }: Props) => {
         return (
           <button
             key={item.id}
-            className={`tech-btn ${index === value && "active-btn"}`}
+            className={`tech-btn ${index === value && "text-red-500"}`}
             onClick={() => setValue(index)}
           >
             {item.title}
