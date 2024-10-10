@@ -9,7 +9,7 @@ interface Props {
 }
 const Content = ({ title, company, createdAt, usedBy }: Props) => {
   return (
-    <article className="tech-info">
+    <article className="bg-orange-300">
       <h3>{title}</h3>
       <h4>{company}</h4>
       <p className="tech-date">{createdAt}</p>
