@@ -12,7 +12,7 @@ const Content = ({ title, company, createdAt, usedBy }: Props) => {
     <article className="bg-orange-300">
       <h3>{title}</h3>
       <h4>{company}</h4>
-      <p className="tech-date">{createdAt}</p>
+      <p className="bg-slate-600">{createdAt}</p>
       {usedBy.map((duty, index) => {
         return (
           <div key={index} className="tech-desc">
