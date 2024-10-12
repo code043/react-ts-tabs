@@ -17,7 +17,7 @@ const Content = ({ title, company, createdAt, usedBy }: Props) => {
         return (
           <div key={index} className="tech-desc">
             <div className="tech-icon">
-              <FontAwesomeIcon icon={faLightbulb} />
+              <FontAwesomeIcon className="text-blue-200" icon={faLightbulb} />
             </div>
             <p>{duty}</p>
           </div>
