@@ -15,7 +15,7 @@ const Content = ({ title, company, createdAt, usedBy }: Props) => {
       <p className="bg-slate-600">{createdAt}</p>
       {usedBy.map((duty, index) => {
         return (
-          <div key={index} className="tech-desc">
+          <div key={index} className="border border-red-300 p-3">
             <div className="tech-icon">
               <FontAwesomeIcon className="text-blue-200" icon={faLightbulb} />
             </div>
