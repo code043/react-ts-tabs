@@ -7,7 +7,7 @@ function App() {
   const [techs] = useState<TechData[]>(technologies);
 
   return (
-    <main>
+    <main className="container mx-auto">
       <Techs jobs={techs} />
     </main>
   );
