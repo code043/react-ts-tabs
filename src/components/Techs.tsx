@@ -14,7 +14,7 @@ const Techs = ({ jobs }: Props) => {
       <div className="text-red-300">
         <h2 className="text-blue-300 ">Technologies</h2>
       </div>
-      <div className="">
+      <div className="bg-blue-600">
         <ButtonTab jobs={jobs} value={value} setValue={setValue} />
         <Content
           title={title}

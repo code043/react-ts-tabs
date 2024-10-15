@@ -11,7 +11,7 @@ const Content = ({ title, company, createdAt, usedBy }: Props) => {
   return (
     <article className="bg-orange-300">
       <h3 className="text-white">{title}</h3>
-      <h4>{company}</h4>
+      <h4 className="">{company}</h4>
       <p className="bg-slate-600">{createdAt}</p>
       {usedBy.map((duty, index) => {
         return (
