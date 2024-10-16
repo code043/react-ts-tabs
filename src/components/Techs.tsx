@@ -10,7 +10,7 @@ const Techs = ({ jobs }: Props) => {
   const [value, setValue] = useChange(0);
   const { company, createdAt, usedBy, title } = jobs[value];
   return (
-    <section className="section">
+    <section className="bg-black">
       <div className="text-red-300">
         <h2 className="text-blue-300 ">Technologies</h2>
       </div>
